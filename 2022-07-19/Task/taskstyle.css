@@ -1,0 +1,42 @@
+.forbutton {
+    border-color: white;
+    border-width: 5px;
+    margin: 2px 2px;
+    color: white;
+    background-color: blueviolet;
+    padding: 15px 30px;
+    
+    
+}
+
+@media (max-width:400px) {
+    h1 {
+        background-color: yellow;
+    }
+
+}
+
+@media (min-width:400px) {
+
+    h1 {
+        background-color: coral;
+    }
+}
+    
+@media (max-width:400px) {
+   .centered {
+    align-items: left;
+   }
+
+}
+
+@media (min-width:400px) {
+
+    .centered {
+        background-color: blueviolet;
+        /*border: 1px solid black;*/
+        text-align: right;
+        display: flex;
+        height: fit-content;
+       }
+}
