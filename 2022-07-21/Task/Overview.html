@@ -8,42 +8,104 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2414f6f02e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="p-3 mb-3 border-bottom">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="Overview.html" class="nav-link px-2 link-secondary">Overview</a></li>
-                <li><a href="Inventory.html" class="nav-link px-2 link-dark">Inventory</a></li>
-                <li><a href="Customers.html" class="nav-link px-2 link-dark">Customers</a></li>
-                <li><a href="Products.html" class="nav-link px-2 link-dark">Products</a></li>
-              </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-            </form>
-    
-            <div class="dropdown text-end">
-              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="#">New project...</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
-              </ul>
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="Overview.html" class="nav-link px-2 link-secondary">Overview</a></li>
+                    <li><a href="Inventory.html" class="nav-link px-2 link-dark">Inventory</a></li>
+                    <li><a href="Customers.html" class="nav-link px-2 link-dark">Customers</a></li>
+                    <li><a href="Products.html" class="nav-link px-2 link-dark">Products</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </header>
+    </header>
+
+    <div class="text-center">
+        <p>
+            <img src="overview.png">
+        </p>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <div class="container">
+                    <p>
+                        A review article is an article that summarizes the current state of understanding on a topic
+                        within a certain discipline. A review article is generally considered a secondary source
+                        since it may analyze and discuss the method and conclusions in previously published studies. It
+                        resembles a survey article or, in news publishing, overview article, which also surveys and
+                        summarizes previously published primary and secondary sources, instead of reporting new facts
+                        and results. Survey articles are however considered tertiary sources, since they do not provide
+                        additional analysis and synthesis of new conclusions. A review of such sources is often referred
+                        to as a tertiary review.
+                    </p>
+            </td>
+            <td>
+                <button class="btn btn-secondary btn-lg btn-sm" data-bs-toggle="modal" data-bs-target="#myModal"><i
+                        class="fa-solid fa-circle-info"></i></button>
+
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                review journals
+                            </div>
+                            <div class="modal-body">
+
+                                <p>
+                                    Academic publications that specialize in review articles are known as review
+                                    journals. Review journals have their own requirements for the review articles they
+                                    accept, so review articles may vary slightly depending on the journal they are being
+                                    submitted to.
+                                </p>
+                            </div>
+
+                            <div class="modal-footer"><button class="btn btn-default" data-bs-dismiss="modal"><i
+                                        class="fa-solid fa-house-blank"></i>close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </div>
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
 
 
