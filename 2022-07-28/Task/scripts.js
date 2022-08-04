@@ -36,3 +36,4 @@ if (!isNaN(input1) && !isNaN(input2) && operation == "+") {
     alert("Error!")
 
 }
+
