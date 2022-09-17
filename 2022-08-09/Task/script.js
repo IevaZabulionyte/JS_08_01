@@ -24,3 +24,4 @@ function division() {
 
 }
 
+//galima buvo padaryt su switch po viena funkcija 

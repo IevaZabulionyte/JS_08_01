@@ -42,6 +42,8 @@ app.post("/add-customer", (req, res) => {
         vip: req.body.vip == "Yes" ? 1 : 0
     };
 
+
+    //cia kazkur yra klaida:
     const sqlQuery = " INSERT INTO customers (firstname,lastname,email,phone) VALUES (?,?,?,?,?)";
     //('"+newCustomer.firstname + 
    // "','"+newCustomer.lastname+"','"+newCustomer.email+"','"+newCustomer.phone +"')";
